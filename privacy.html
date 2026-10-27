@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nimbus — Privacy Policy</title>
+<meta name="description" content="Nimbus has no server, no accounts and no tracking. What it sends to Apple, and what stays on your device.">
+<link rel="icon" href="icon-256.png">
+<style>
+  :root {
+    --ground: #f3f6fa; --surface: #ffffff; --ink: #0f1b3a;
+    --muted: #4f5d72; --line: #dbe3ec; --accent: #27445c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #0f1b3a; --surface: #16244a; --ink: #eef3f8;
+      --muted: #a9bccb; --line: #263760; --accent: #99cee5;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font: 16px/1.65 ui-sans-serif, -apple-system, system-ui, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 72px 24px 96px; }
+  h1 { font-size: 2.2rem; letter-spacing: -.02em; margin: 0 0 6px; }
+  h2 { font-size: 1.15rem; margin: 40px 0 8px; }
+  p { margin: 0 0 14px; }
+  p.lede { color: var(--muted); font-size: 1.05rem; margin-bottom: 20px; }
+  a { color: var(--accent); }
+  ul { margin: 0 0 14px; padding-left: 22px; color: var(--muted); }
+  li { margin-bottom: 8px; }
+  li strong { color: var(--ink); }
+  footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="lede">Last updated 27 October 2026</p>
+
+  <p>Nimbus shows Australian weather forecasts and judges them for your own plans, on your iPhone and Apple Watch. <strong>Nimbus has no server, no accounts, no advertising, no analytics and no tracking, and it doesn't sell or share your information.</strong> Its developer receives nothing from the app unless you send it yourself.</p>
+
+  <h2>What leaves your device</h2>
+  <p>Only the requests needed to show the forecast, all of them to Apple:</p>
+  <ul>
+    <li><strong>Weather.</strong> Nimbus divides the map into neighbourhoods of about 0.7 km². For a forecast it sends Apple Weather (WeatherKit) the centre of your neighbourhood, never your exact position.</li>
+    <li><strong>Place names.</strong> Apple's geocoder receives the same neighbourhood centre to name the suburb and its local time zone. When you search for a place, the text you type is sent to Apple's geocoder to find it.</li>
+    <li><strong>Apple's attribution mark</strong> is downloaded from Apple so it can be displayed. This request carries no information about you.</li>
+  </ul>
+  <p>Apple's own privacy policy governs these requests. Nimbus doesn't send anything to its developer or to any other company.</p>
+
+  <h2>What stays on your device</h2>
+  <ul>
+    <li><strong>Your location.</strong> When you choose current location, iOS gives Nimbus your position while the app is open. Nimbus turns it into the neighbourhood and keeps no location history. It never asks for location in the background.</li>
+    <li><strong>Saved places</strong> (up to five): each neighbourhood, its label and its local time zone.</li>
+    <li><strong>Plans and settings:</strong> your plans, walking preferences, theme and morning-message time.</li>
+    <li><strong>Calendar (optional).</strong> If you turn on the calendar check, Nimbus reads today's and tomorrow's events on your iPhone to judge the outdoor ones at the place on screen. Event details aren't stored, sent or looked up; Nimbus keeps only your on/off choice for each event until the event has passed.</li>
+    <li><strong>Forecasts</strong> for the places you view, shared with the widgets. A forecast is reused for 30 minutes, shown with its update time for up to three hours, and then replaced. The minute-by-minute next hour is used for at most 20 minutes after Apple issues it. Forecasts aren't archived.</li>
+    <li><strong>Morning message (optional).</strong> One local notification a day, prepared on your iPhone. Nothing is sent through a push service.</li>
+    <li><strong>Rain Live Activity.</strong> Started and updated by the app on your iPhone while it is open. It uses no push service.</li>
+    <li><strong>Diagnostic report.</strong> A small log of problems the app noticed and the crash and hang reports iOS gathers for it. It never contains your location, neighbourhoods, place names or searches. It leaves your iPhone only if you share it from Settings › Privacy and support › Diagnostic report, where you can also delete it.</li>
+    <li><strong>Apple Watch.</strong> Your iPhone sends the watch the place on screen (its neighbourhood, name and time zone), your plans, walking preferences and theme, directly between your own devices. The watch uses your location the same way, while its app is open, and requests its own forecasts from Apple for the neighbourhood's centre.</li>
+  </ul>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Location, calendar and notifications are all optional, and Nimbus asks for each only when you turn on the feature that needs it. You can use saved places without location access, and change any permission in iPhone Settings.</li>
+    <li><strong>Settings › Remove my places and data</strong> erases, on this iPhone and without a network connection, your saved places, current neighbourhood, plans, any pending morning messages and the stored forecasts used by the app and widgets. Your paired Apple Watch forgets the place and plans your iPhone sent it, and its stored forecasts, the next time it hears from your iPhone.</li>
+    <li>Deleting Nimbus removes everything it stored on that device.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Nimbus doesn't knowingly collect information from anyone, including children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted at this address with a new date at the top before the change reaches the app.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:csergay@gmail.com">csergay@gmail.com</a>. Please don't include your home address in messages.</p>
+
+  <footer>
+    <a href="index.html">Support</a> · © 2026 Colin Sergay
+  </footer>
+</main>
+</body>
+</html>
